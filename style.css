@@ -15,10 +15,38 @@ nav ul li a { font-weight:500; transition: color 0.3s; }
 nav ul li a:hover { color:#27796D; }
 
 /* Hero */
-.hero { display:flex; flex-direction:column; justify-content:center; align-items:center; height:80vh; text-align:center; background:#0E5149; color:#fff; padding:0 1rem; }
-.hero-logo-container { max-width:300px; width:100%; display:flex; justify-content:center; margin-bottom:1rem; }
-.hero-logo { max-height:120px; width:auto; display:block; object-fit:contain; }
-.hero-text { font-size:2rem; animation:fadeInUp 1.5s ease forwards; }
+.hero { 
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center; 
+  align-items:center; 
+  min-height:60vh; /* smaller than before so text shows */
+  text-align:center; 
+  background:#0E5149; 
+  color:#fff; 
+  padding:2rem 1rem; 
+}
+
+.hero-logo-container { 
+  max-width:250px; 
+  width:100%; 
+  display:flex; 
+  justify-content:center; 
+  margin-bottom:1rem; 
+}
+
+.hero-logo { 
+  max-height:100px;  
+  width:auto; 
+  display:block; 
+  object-fit:contain; 
+}
+
+.hero-text { 
+  font-size:1.8rem; 
+  animation:fadeInUp 1.5s ease forwards; 
+  margin-top:1rem; 
+}
 
 /* Sections */
 .section { padding:4rem 2rem; max-width:1000px; margin:0 auto; }
