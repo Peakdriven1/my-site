@@ -20,11 +20,13 @@ nav ul li a:hover { color:#27796D; }
   flex-direction:column; 
   justify-content:center; 
   align-items:center; 
-  min-height:60vh; /* smaller than before so text shows */
+  min-height:50vh; /* shorter to show other sections */
   text-align:center; 
   background:#0E5149; 
   color:#fff; 
   padding:2rem 1rem; 
+  position:relative;
+  z-index:1;
 }
 
 .hero-logo-container { 
@@ -46,10 +48,18 @@ nav ul li a:hover { color:#27796D; }
   font-size:1.8rem; 
   animation:fadeInUp 1.5s ease forwards; 
   margin-top:1rem; 
+  max-width:800px; 
+  line-height:1.4;
 }
 
 /* Sections */
-.section { padding:4rem 2rem; max-width:1000px; margin:0 auto; }
+.section { 
+  padding:4rem 2rem; 
+  max-width:1000px; 
+  margin:0 auto; 
+  background:#fff; 
+  color:#0E5149; 
+}
 .fade-in { opacity:0; transform:translateY(20px); transition: all 0.8s ease; }
 .fade-in-visible { opacity:1; transform:translateY(0); transition: all 0.8s ease; }
 
