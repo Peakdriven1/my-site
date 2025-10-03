@@ -1,23 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rumi Narrative</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header / Navigation -->
   <header>
-    <h1>Welcome to My Website</h1>
-    <p>Start designing your amazing site!</p>
+    <div class="logo">Rumi Narrative</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#founder">Founder</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#values">Values</a></li>
+        <li><a href="#foundation">Foundation</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <section>
-      <h2>About</h2>
-      <p>This is where you put information about your site or company.</p>
-    </section>
-  </main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Where story begins with the heart,<br>and ends in impact.</h1>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="fade-in">
+    <h2>About Us</h2>
+    <p>Rumi Narrative was born from a belief that storytelling rooted in truth, strategy, and soul can shape culture, influence policy, and inspire action.</p>
+  </section>
+
+  <!-- Founder Section -->
+  <section id="founder" class="fade-in">
+    <h2>Founder</h2>
+    <p><strong>Suleiman Amanzad</strong><br>Founder, Rumi Narrative</p>
+    <blockquote>"Raise your words, not your voice. It is rain that grows flowers, not thunder." — Rumi</blockquote>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="fade-in">
+    <h2>Services</h2>
+    <div class="cards">
+      <div class="card">Communication Strategy</div>
+      <div class="card">Message Development</div>
+      <div class="card">Campaign Strategy</div>
+      <div class="card">Voice & Brand Language</div>
+      <div class="card">Crisis & Reputation Communication</div>
+      <div class="card">Storytelling & Content Creation</div>
+      <div class="card">Leadership & Thought Partnering</div>
+      <div class="card">Executive Communications</div>
+      <div class="card">Internal Communications</div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section id="values" class="fade-in">
+    <h2>Our Values</h2>
+    <div class="values-grid">
+      <div class="value-card">Love Leads</div>
+      <div class="value-card">Truth as Compass</div>
+      <div class="value-card">Humanity First</div>
+      <div class="value-card">Stillness Within Movement</div>
+      <div class="value-card">Voice as Power</div>
+      <div class="value-card">We Begin in Wonder</div>
+    </div>
+  </section>
+
+  <!-- Foundation Section -->
+  <section id="foundation" class="fade-in">
+    <h2>Foundation / Case Studies</h2>
+    <p>Stories that continue to guide how we listen, lead, and serve.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p>Email: info@RumiNarrative.com | LinkedIn: <a href="#">Link</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Rumi Narrative · Made with care</p>
+  </footer>
 
   <script src="app.js"></script>
 </body>
